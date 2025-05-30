@@ -107,7 +107,7 @@ def train():
     step = 0
     best_ood_loss = float('inf')
 
-    for epoch in range(2):
+    for epoch in range(10):
         for tokens, gt in tqdm(train_loader, desc=f"Epoch {epoch}"):
             pred1 = model(tokens, device)[:, -1, 0]  # mean prediction
             tokens_with_gt1 = [seq + [f"{gt[i][0].item():.3f}"] for i, seq in enumerate(tokens)]

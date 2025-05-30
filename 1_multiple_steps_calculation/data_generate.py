@@ -28,4 +28,3 @@ def generate_dataset(path, n):
 
 if __name__ == '__main__':
     generate_dataset("id_training_data.jsonl", 1_000_000)
-    generate_dataset("id_testing_data.jsonl", 1000)
