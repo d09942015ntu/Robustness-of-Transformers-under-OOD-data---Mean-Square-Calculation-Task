@@ -1,6 +1,3 @@
-# [Implementation] Chain‑of‑Thought Prompting for Out-of-Distribution Samples: A Latent‑Variable Study 
-
-
 ## Installation
 
 ### Setting up venv
